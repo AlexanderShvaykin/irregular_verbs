@@ -8,8 +8,11 @@
 
 <style>
   .list {
-      width: 535px;
+      width: 650px;
       margin: auto;
+  }
+  .list p {
+    border-bottom: 0.1rem solid gainsboro;
   }
   .list p span {
       margin-right: 10px;
@@ -28,6 +31,6 @@
 <div class="list">
   <input type="text" bind:value={q}>
   {#each verbs.filter(w => findWord(q, w)) as word}
-    <p><span class="w1">{word.simple}</span><span class="w2">{word.participle}</span><span class="w2">{word.rus}</span></p>
+    <p><span class="w1">{word.imperative}</span><span class="w1">{word.simple}</span><span class="w1">{word.participle}</span><span class="w2">{word.rus}</span></p>
   {/each}
 </div>

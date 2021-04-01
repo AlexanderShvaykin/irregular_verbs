@@ -1,602 +1,722 @@
 export const verbs = [
   {
-    "simple": "arise",
-    "participle": "arose, arisen",
+    "imperative": "arise",
+    "simple": "arose",
+    "participle": "arisen",
     "rus": "подниматься"
   },
   {
-    "simple": "awake",
-    "participle": "awoke, awoken",
+    "imperative": "awake",
+    "simple": "awoke",
+    "participle": "awoken",
     "rus": "пробуждать"
   },
   {
-    "simple": "be",
-    "participle": "was (were)",
+    "imperative": "be",
+    "simple": "was(were)",
+    "participle": "been",
     "rus": "быть"
   },
   {
-    "simple": "bear",
-    "participle": "bore, born",
-    "rus": "переносить"
+    "imperative": "bear",
+    "simple": "bore",
+    "participle": "born",
+    "rus": "рожать, переносить"
   },
   {
+    "imperative": "beat",
     "simple": "beat",
-    "participle": "beat, beaten",
+    "participle": "beaten",
     "rus": "бить"
   },
   {
-    "simple": "become",
-    "participle": "became, become",
+    "imperative": "become",
+    "simple": "became",
+    "participle": "become",
     "rus": "становиться"
   },
   {
-    "simple": "begin",
-    "participle": "began, begun",
+    "imperative": "begin",
+    "simple": "began",
+    "participle": "begun",
     "rus": "начинать"
   },
   {
-    "simple": "bend",
-    "participle": "bent, bent",
+    "imperative": "bend",
+    "simple": "bent",
+    "participle": "bent",
     "rus": "наклонять"
   },
   {
+    "imperative": "bet",
     "simple": "bet",
-    "participle": "bet, bet",
-    "rus": "пари"
+    "participle": "bet",
+    "rus": "заключать пари"
   },
   {
-    "simple": "bind",
-    "participle": "bound, bound",
+    "imperative": "bind",
+    "simple": "bound",
+    "participle": "bound",
     "rus": "связывать"
   },
   {
-    "simple": "bite",
-    "participle": "bit, bitten",
+    "imperative": "bite",
+    "simple": "bit",
+    "participle": "bitten",
     "rus": "кусать"
   },
   {
-    "simple": "bleed",
-    "participle": "bled, bled",
+    "imperative": "bleed",
+    "simple": "bled",
+    "participle": "bled",
     "rus": "кровоточить"
   },
   {
-    "simple": "blow",
-    "participle": "blew, blown",
+    "imperative": "blow",
+    "simple": "blew",
+    "participle": "blown",
     "rus": "дуть"
   },
   {
-    "simple": "break",
-    "participle": "broke, broken",
+    "imperative": "break",
+    "simple": "broke",
+    "participle": "broken",
     "rus": "ломать"
   },
   {
-    "simple": "breed",
-    "participle": "bred, bred",
-    "rus": "животных"
+    "imperative": "breed",
+    "simple": "bred",
+    "participle": "bred",
+    "rus": "разводить животных"
   },
   {
-    "simple": "bring",
-    "participle": "brought, brought",
+    "imperative": "bring",
+    "simple": "brought",
+    "participle": "brought",
     "rus": "приносить"
   },
   {
-    "simple": "build",
-    "participle": "built, built",
+    "imperative": "build",
+    "simple": "built",
+    "participle": "built",
     "rus": "строить"
   },
   {
-    "simple": "buy",
-    "participle": "bought, bought",
+    "imperative": "buy",
+    "simple": "bought",
+    "participle": "bought",
     "rus": "покупать"
   },
   {
-    "simple": "catch",
-    "participle": "caught, caught",
+    "imperative": "catch",
+    "simple": "caught",
+    "participle": "caught",
     "rus": "ловить"
   },
   {
-    "simple": "choose",
-    "participle": "chose, chosen",
+    "imperative": "choose",
+    "simple": "chose",
+    "participle": "chosen",
     "rus": "выбирать"
   },
   {
-    "simple": "cling",
-    "participle": "clung, clung",
+    "imperative": "cling",
+    "simple": "clung",
+    "participle": "clung",
     "rus": "цепляться"
   },
   {
-    "simple": "come",
-    "participle": "came, come",
+    "imperative": "come",
+    "simple": "came",
+    "participle": "come",
     "rus": "приходить"
   },
   {
+    "imperative": "cost",
     "simple": "cost",
-    "participle": "cost, cost",
+    "participle": "cost",
     "rus": "стоить"
   },
   {
+    "imperative": "cut",
     "simple": "cut",
-    "participle": "cut, cut",
+    "participle": "cut",
     "rus": "резать"
   },
   {
-    "simple": "deal",
-    "participle": "dealt, dealt",
-    "rus": "дела"
+    "imperative": "deal",
+    "simple": "dealt",
+    "participle": "dealt",
+    "rus": "вести дела"
   },
   {
-    "simple": "dig",
-    "participle": "dug, dug",
+    "imperative": "dig",
+    "simple": "dug",
+    "participle": "dug",
     "rus": "копать"
   },
   {
-    "simple": "do",
-    "participle": "did, done",
+    "imperative": "do",
+    "simple": "did",
+    "participle": "done",
     "rus": "делать"
   },
   {
-    "simple": "draw",
-    "participle": "drew, drawn",
-    "rus": "тянуть"
+    "imperative": "draw",
+    "simple": "drew",
+    "participle": "drawn",
+    "rus": "рисовать, тянуть"
   },
   {
-    "simple": "drink",
-    "participle": "drank, drunk",
+    "imperative": "drink",
+    "simple": "drank",
+    "participle": "drunk",
     "rus": "пить"
   },
   {
-    "simple": "drive",
-    "participle": "drove, driven",
-    "rus": "автомобиль"
+    "imperative": "drive",
+    "simple": "drove",
+    "participle": "driven",
+    "rus": "водить автомобиль"
   },
   {
-    "simple": "eat",
-    "participle": "ate, eaten",
+    "imperative": "eat",
+    "simple": "ate",
+    "participle": "eaten",
     "rus": "кушать"
   },
   {
-    "simple": "fall",
-    "participle": "fell, fallen",
+    "imperative": "fall",
+    "simple": "fell",
+    "participle": "fallen",
     "rus": "падать"
   },
   {
-    "simple": "feed",
-    "participle": "fed, fed",
+    "imperative": "feed",
+    "simple": "fed",
+    "participle": "fed",
     "rus": "кормить"
   },
   {
-    "simple": "feel",
-    "participle": "felt, felt",
+    "imperative": "feel",
+    "simple": "felt",
+    "participle": "felt",
     "rus": "чувствовать"
   },
   {
-    "simple": "fight",
-    "participle": "fought, fought",
+    "imperative": "fight",
+    "simple": "fought",
+    "participle": "fought",
     "rus": "бороться"
   },
   {
-    "simple": "find",
-    "participle": "found, found",
+    "imperative": "find",
+    "simple": "found",
+    "participle": "found",
     "rus": "находить"
   },
   {
-    "simple": "flee",
-    "participle": "fled, fled",
+    "imperative": "flee",
+    "simple": "fled",
+    "participle": "fled",
     "rus": "сбегать"
   },
   {
-    "simple": "fly",
-    "participle": "flew, flown",
+    "imperative": "fly",
+    "simple": "flew",
+    "participle": "flown",
     "rus": "летать"
   },
   {
-    "simple": "forbid",
-    "participle": "forbade, forbidden",
+    "imperative": "forbid",
+    "simple": "forbade",
+    "participle": "forbidden",
     "rus": "запрещать"
   },
   {
-    "simple": "forget",
-    "participle": "forgot, forgotten",
+    "imperative": "forget",
+    "simple": "forgot",
+    "participle": "forgotten",
     "rus": "забывать"
   },
   {
-    "simple": "forgive",
-    "participle": "forgave, forgiven",
+    "imperative": "forgive",
+    "simple": "forgave",
+    "participle": "forgiven",
     "rus": "прощать"
   },
   {
-    "simple": "freeze",
-    "participle": "froze, frozen",
+    "imperative": "freeze",
+    "simple": "froze",
+    "participle": "frozen",
     "rus": "замораживать"
   },
   {
-    "simple": "get",
-    "participle": "got, got (gotten)",
+    "imperative": "get",
+    "simple": "got",
+    "participle": "got (gotten)",
     "rus": "получать"
   },
   {
-    "simple": "give",
-    "participle": "gave, given",
+    "imperative": "give",
+    "simple": "gave",
+    "participle": "given",
     "rus": "давать"
   },
   {
-    "simple": "go",
-    "participle": "went, gone",
+    "imperative": "go",
+    "simple": "went",
+    "participle": "gone",
     "rus": "идти"
   },
   {
-    "simple": "grow",
-    "participle": "grew, grown",
+    "imperative": "grow",
+    "simple": "grew",
+    "participle": "grown",
     "rus": "расти"
   },
   {
-    "simple": "hang",
-    "participle": "hung, hung",
+    "imperative": "hang",
+    "simple": "hung",
+    "participle": "hung",
     "rus": "висеть"
   },
   {
-    "simple": "have",
-    "participle": "had, had",
+    "imperative": "have",
+    "simple": "had",
+    "participle": "had",
     "rus": "иметь"
   },
   {
-    "simple": "hear",
-    "participle": "heard, heard",
+    "imperative": "hear",
+    "simple": "heard",
+    "participle": "heard",
     "rus": "слышать"
   },
   {
-    "simple": "hide",
-    "participle": "hid, hidden",
+    "imperative": "hide",
+    "simple": "hid",
+    "participle": "hidden",
     "rus": "прятать"
   },
   {
+    "imperative": "hit",
     "simple": "hit",
-    "participle": "hit, hit",
-    "rus": "попадать"
+    "participle": "hit",
+    "rus": "ударять, попадать"
   },
   {
-    "simple": "hold",
-    "participle": "held, held",
+    "imperative": "hold",
+    "simple": "held",
+    "participle": "held",
     "rus": "держать"
   },
   {
+    "imperative": "hurt",
     "simple": "hurt",
-    "participle": "hurt, hurt",
-    "rus": "боль"
+    "participle": "hurt",
+    "rus": "причинять боль"
   },
   {
-    "simple": "keep",
-    "participle": "kept, kept",
-    "rus": "соблюдать"
+    "imperative": "keep",
+    "simple": "kept",
+    "participle": "kept",
+    "rus": "сохранять, соблюдать"
   },
   {
-    "simple": "know",
-    "participle": "knew, known",
+    "imperative": "know",
+    "simple": "knew",
+    "participle": "known",
     "rus": "знать"
   },
   {
-    "simple": "lay",
-    "participle": "laid, laid",
+    "imperative": "lay",
+    "simple": "laid",
+    "participle": "laid",
     "rus": "класть"
   },
   {
-    "simple": "lead",
-    "participle": "led, led",
-    "rus": "лидировать"
+    "imperative": "lead",
+    "simple": "led",
+    "participle": "led",
+    "rus": "вести, лидировать"
   },
   {
-    "simple": "learn",
-    "participle": "learnt (learned), learnt (learned)",
-    "rus": "узнавать"
+    "imperative": "learn",
+    "simple": "learnt (learned)",
+    "participle": "learnt (learned)",
+    "rus": "учиться, узнавать"
   },
   {
-    "simple": "leave",
-    "participle": "left, left",
-    "rus": "оставлять"
+    "imperative": "leave",
+    "simple": "left",
+    "participle": "left",
+    "rus": "покидать, оставлять"
   },
   {
-    "simple": "lend",
-    "participle": "lent, lent",
-    "rus": "взаймы"
+    "imperative": "lend",
+    "simple": "lent",
+    "participle": "lent",
+    "rus": "давать взаймы"
   },
   {
+    "imperative": "let",
     "simple": "let",
-    "participle": "let, let",
+    "participle": "let",
     "rus": "позволять"
   },
   {
-    "simple": "lie",
-    "participle": "lay, lain",
+    "imperative": "lie",
+    "simple": "lay",
+    "participle": "lain",
     "rus": "лежать"
   },
   {
-    "simple": "light",
-    "participle": "lit, lit",
-    "rus": "освещать"
+    "imperative": "light",
+    "simple": "lit",
+    "participle": "lit",
+    "rus": "зажигать, освещать"
   },
   {
-    "simple": "lose",
-    "participle": "lost, lost",
+    "imperative": "lose",
+    "simple": "lost",
+    "participle": "lost",
     "rus": "терять"
   },
   {
-    "simple": "make",
-    "participle": "made, made",
-    "rus": "мастерить"
+    "imperative": "make",
+    "simple": "made",
+    "participle": "made",
+    "rus": "делать, мастерить"
   },
   {
-    "simple": "mean",
-    "participle": "meant, meant",
+    "imperative": "mean",
+    "simple": "meant",
+    "participle": "meant",
     "rus": "значить"
   },
   {
-    "simple": "meet",
-    "participle": "met, met",
-    "rus": "знакомиться"
+    "imperative": "meet",
+    "simple": "met",
+    "participle": "met",
+    "rus": "встречать, знакомиться"
   },
   {
-    "simple": "pay",
-    "participle": "paid, paid",
+    "imperative": "pay",
+    "simple": "paid",
+    "participle": "paid",
     "rus": "платить"
   },
   {
+    "imperative": "put",
     "simple": "put",
-    "participle": "put, put",
-    "rus": "ставить"
+    "participle": "put",
+    "rus": "класть, ставить"
   },
   {
+    "imperative": "read",
     "simple": "read",
-    "participle": "read, read",
+    "participle": "read",
     "rus": "читать"
   },
   {
-    "simple": "ride",
-    "participle": "rode, ridden",
-    "rus": "верхом"
+    "imperative": "ride",
+    "simple": "rode",
+    "participle": "ridden",
+    "rus": "ездить верхом"
   },
   {
-    "simple": "ring",
-    "participle": "rang, rung",
+    "imperative": "ring",
+    "simple": "rang",
+    "participle": "rung",
     "rus": "звонить"
   },
   {
-    "simple": "rise",
-    "participle": "rose, risen",
-    "rus": "подниматься"
+    "imperative": "rise",
+    "simple": "rose",
+    "participle": "risen",
+    "rus": "возрастать, подниматься"
   },
   {
-    "simple": "run",
-    "participle": "ran, run",
+    "imperative": "run",
+    "simple": "ran",
+    "participle": "run",
     "rus": "бежать"
   },
   {
-    "simple": "say",
-    "participle": "said, said",
+    "imperative": "say",
+    "simple": "said",
+    "participle": "said",
     "rus": "сказать"
   },
   {
-    "simple": "see",
-    "participle": "saw, seen",
+    "imperative": "see",
+    "simple": "saw",
+    "participle": "seen",
     "rus": "видеть"
   },
   {
-    "simple": "seek",
-    "participle": "sought, sought",
+    "imperative": "seek",
+    "simple": "sought",
+    "participle": "sought",
     "rus": "искать"
   },
   {
-    "simple": "sell",
-    "participle": "sold, sold",
+    "imperative": "sell",
+    "simple": "sold",
+    "participle": "sold",
     "rus": "продавать"
   },
   {
-    "simple": "send",
-    "participle": "sent, sent",
+    "imperative": "send",
+    "simple": "sent",
+    "participle": "sent",
     "rus": "посылать"
   },
   {
+    "imperative": "set",
     "simple": "set",
-    "participle": "set, set",
+    "participle": "set",
     "rus": "устанавливать"
   },
   {
-    "simple": "shake",
-    "participle": "shook, shaken",
+    "imperative": "shake",
+    "simple": "shook",
+    "participle": "shaken",
     "rus": "трясти"
   },
   {
-    "simple": "shine",
-    "participle": "shone, shone",
-    "rus": "сиять"
+    "imperative": "shine",
+    "simple": "shone",
+    "participle": "shone",
+    "rus": "светить, сиять"
   },
   {
-    "simple": "shoot",
-    "participle": "shot, shot",
+    "imperative": "shoot",
+    "simple": "shot",
+    "participle": "shot",
     "rus": "стрелять"
   },
   {
-    "simple": "show",
-    "participle": "showed, shown",
+    "imperative": "show",
+    "simple": "showed",
+    "participle": "shown",
     "rus": "показывать"
   },
   {
-    "simple": "shrink",
-    "participle": "shrank, shrunk",
+    "imperative": "shrink",
+    "simple": "shrank",
+    "participle": "shrunk",
     "rus": "сжиматься"
   },
   {
+    "imperative": "shut",
     "simple": "shut",
-    "participle": "shut, shut",
-    "rus": "затворять"
+    "participle": "shut",
+    "rus": "закрывать, затворять"
   },
   {
-    "simple": "sing",
-    "participle": "sang, sung",
+    "imperative": "sing",
+    "simple": "sang",
+    "participle": "sung",
     "rus": "петь"
   },
   {
-    "simple": "sit",
-    "participle": "sat, sat",
+    "imperative": "sit",
+    "simple": "sat",
+    "participle": "sat",
     "rus": "сидеть"
   },
   {
-    "simple": "sleep",
-    "participle": "slept, slept",
+    "imperative": "sleep",
+    "simple": "slept",
+    "participle": "slept",
     "rus": "спать"
   },
   {
-    "simple": "slide",
-    "participle": "slid, slid",
+    "imperative": "slide",
+    "simple": "slid",
+    "participle": "slid",
     "rus": "скользить"
   },
   {
-    "simple": "smell",
-    "participle": "smelt, smelt",
-    "rus": "нюхать"
+    "imperative": "smell",
+    "simple": "smelt",
+    "participle": "smelt",
+    "rus": "пахнуть, нюхать"
   },
   {
-    "simple": "speak",
-    "participle": "spoke, spoken",
+    "imperative": "speak",
+    "simple": "spoke",
+    "participle": "spoken",
     "rus": "говорить"
   },
   {
-    "simple": "spell",
-    "participle": "spelt (spelled), spelt (spelled)",
-    "rus": "буквам"
+    "imperative": "spell",
+    "simple": "spelt (spelled)",
+    "participle": "spelt (spelled)",
+    "rus": "произносить или писать по буквам"
   },
   {
-    "simple": "spend",
-    "participle": "spent, spent",
-    "rus": "время"
+    "imperative": "spend",
+    "simple": "spent",
+    "participle": "spent",
+    "rus": "тратить, проводить время"
   },
   {
-    "simple": "spill",
-    "participle": "spilt (spilled), spilt (spilled)",
+    "imperative": "spill",
+    "simple": "spilt (spilled)",
+    "participle": "spilt (spilled)",
     "rus": "разлить"
   },
   {
-    "simple": "spin",
-    "participle": "spun, spun",
+    "imperative": "spin",
+    "simple": "spun",
+    "participle": "spun",
     "rus": "крутить"
   },
   {
+    "imperative": "split",
     "simple": "split",
-    "participle": "split, split",
-    "rus": "раскалывать"
+    "participle": "split",
+    "rus": "разделять, раскалывать"
   },
   {
-    "simple": "spoil",
-    "participle": "spoilt (spoiled), spoilt (spoiled)",
+    "imperative": "spoil",
+    "simple": "spoilt (spoiled)",
+    "participle": "spoilt (spoiled)",
     "rus": "портить"
   },
   {
+    "imperative": "spread",
     "simple": "spread",
-    "participle": "spread, spread",
-    "rus": "распространять"
+    "participle": "spread",
+    "rus": "разворачивать, распространять"
   },
   {
-    "simple": "stand",
-    "participle": "stood, stood",
+    "imperative": "stand",
+    "simple": "stood",
+    "participle": "stood",
     "rus": "стоять"
   },
   {
-    "simple": "steal",
-    "participle": "stole, stolen",
+    "imperative": "steal",
+    "simple": "stole",
+    "participle": "stolen",
     "rus": "воровать"
   },
   {
-    "simple": "sting",
-    "participle": "stung, stung",
+    "imperative": "sting",
+    "simple": "stung",
+    "participle": "stung",
     "rus": "жалить"
   },
   {
-    "simple": "stink",
-    "participle": "stank, stunk",
+    "imperative": "stink",
+    "simple": "stank",
+    "participle": "stunk",
     "rus": "вонять"
   },
   {
-    "simple": "strike",
-    "participle": "struck, struck",
-    "rus": "ударять"
+    "imperative": "strike",
+    "simple": "struck",
+    "participle": "struck",
+    "rus": "бастовать, ударять"
   },
   {
-    "simple": "swear",
-    "participle": "swore, sworn",
-    "rus": "ругаться"
+    "imperative": "swear",
+    "simple": "swore",
+    "participle": "sworn",
+    "rus": "клясться, ругаться"
   },
   {
-    "simple": "sweep",
-    "participle": "swept, swept",
+    "imperative": "sweep",
+    "simple": "swept",
+    "participle": "swept",
     "rus": "подметать"
   },
   {
-    "simple": "swell",
-    "participle": "swelled, swollen (swelled)",
+    "imperative": "swell",
+    "simple": "swelled",
+    "participle": "swollen (swelled)",
     "rus": "опухать"
   },
   {
-    "simple": "swim",
-    "participle": "swam, swum",
+    "imperative": "swim",
+    "simple": "swam",
+    "participle": "swum",
     "rus": "плавать"
   },
   {
-    "simple": "take",
-    "participle": "took, taken",
+    "imperative": "take",
+    "simple": "took",
+    "participle": "taken",
     "rus": "брать"
   },
   {
-    "simple": "teach",
-    "participle": "taught, taught",
+    "imperative": "teach",
+    "simple": "taught",
+    "participle": "taught",
     "rus": "обучать"
   },
   {
-    "simple": "tear",
-    "participle": "tore, torn",
+    "imperative": "tear",
+    "simple": "tore",
+    "participle": "torn",
     "rus": "рвать"
   },
   {
-    "simple": "tell",
-    "participle": "told, told",
+    "imperative": "tell",
+    "simple": "told",
+    "participle": "told",
     "rus": "рассказывать"
   },
   {
-    "simple": "think",
-    "participle": "thought, thought",
+    "imperative": "think",
+    "simple": "thought",
+    "participle": "thought",
     "rus": "думать"
   },
   {
-    "simple": "throw",
-    "participle": "threw, thrown",
+    "imperative": "throw",
+    "simple": "threw",
+    "participle": "thrown",
     "rus": "бросать"
   },
   {
-    "simple": "understand",
-    "participle": "understood, understood",
+    "imperative": "understand",
+    "simple": "understood",
+    "participle": "understood",
     "rus": "понимать"
   },
   {
-    "simple": "wake",
-    "participle": "woke, woken",
+    "imperative": "wake",
+    "simple": "woke",
+    "participle": "woken",
     "rus": "будить"
   },
   {
-    "simple": "wear",
-    "participle": "wore, worn",
-    "rus": ""
+    "imperative": "wear",
+    "simple": "wore",
+    "participle": "worn",
+    "rus": "носить (одежду)"
   },
   {
-    "simple": "win",
-    "participle": "won, won",
+    "imperative": "win",
+    "simple": "won",
+    "participle": "won",
     "rus": "побеждать"
   },
   {
-    "simple": "wind",
-    "participle": "wound, wound",
-    "rus": "изгибаться"
+    "imperative": "wind",
+    "simple": "wound",
+    "participle": "wound",
+    "rus": "обматывать, изгибаться"
   },
   {
-    "simple": "write",
-    "participle": "wrote, written",
+    "imperative": "write",
+    "simple": "wrote",
+    "participle": "written",
     "rus": "писать"
   }
 ]
