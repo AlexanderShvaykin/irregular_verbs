@@ -2,7 +2,10 @@
   import { verbs } from "./verbs"
   let q = "";
   function findWord(name, word) {
-    return word.simple.includes(name) || word.participle.includes(name) || word.rus.includes(name)
+    return word.imperative.includes(name) || 
+            word.simple.includes(name) || 
+            word.participle.includes(name) || 
+            word.rus.includes(name)
   }
 </script>
 
