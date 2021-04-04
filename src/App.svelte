@@ -1,11 +1,12 @@
 <script>
   import { verbs } from "./verbs"
   let q = "";
-  function findWord(name, word) {
-    return word.imperative.includes(name) || 
-            word.simple.includes(name) || 
-            word.participle.includes(name) || 
-            word.rus.includes(name)
+  function findWord(query, word) {
+    let text = query.toLowerCase()
+    return word.imperative.includes(text) || 
+            word.simple.includes(text) || 
+            word.participle.includes(text) || 
+            word.rus.includes(text)
   }
 </script>
 
@@ -32,7 +33,8 @@
 </style>
 
 <div class="list">
-  <input type="text" bind:value={q}>
+  <div class="logo"><img src="logo.png" alt="Logo" width="100px" height="100px"></div>
+  <input type="text" bind:value={q} placeholder="Type your word..">
   {#each verbs.filter(w => findWord(q, w)) as word}
     <p><span class="w1">{word.imperative}</span><span class="w1">{word.simple}</span><span class="w1">{word.participle}</span><span class="w2">{word.rus}</span></p>
   {/each}
