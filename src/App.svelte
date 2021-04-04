@@ -12,7 +12,7 @@
 
 <style>
   .list {
-      width: 650px;
+      width: 540px;
       margin: auto;
   }
   .list p {
