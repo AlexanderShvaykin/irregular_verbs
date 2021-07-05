@@ -13,7 +13,7 @@ export const verbs = [
   },
   {
     "imperative": "be",
-    "simple": "was(were)",
+    "simple": "was",
     "participle": "been",
     "rus": "быть"
   },
@@ -254,7 +254,7 @@ export const verbs = [
   {
     "imperative": "get",
     "simple": "got",
-    "participle": "got (gotten)",
+    "participle": "got",
     "rus": "получать"
   },
   {
@@ -343,8 +343,8 @@ export const verbs = [
   },
   {
     "imperative": "learn",
-    "simple": "learnt (learned)",
-    "participle": "learnt (learned)",
+    "simple": "learnt",
+    "participle": "learnt",
     "rus": "учиться, узнавать"
   },
   {
@@ -553,8 +553,8 @@ export const verbs = [
   },
   {
     "imperative": "spell",
-    "simple": "spelt (spelled)",
-    "participle": "spelt (spelled)",
+    "simple": "spelt",
+    "participle": "spelt",
     "rus": "произносить или писать по буквам"
   },
   {
@@ -565,8 +565,8 @@ export const verbs = [
   },
   {
     "imperative": "spill",
-    "simple": "spilt (spilled)",
-    "participle": "spilt (spilled)",
+    "simple": "spilt",
+    "participle": "spilt",
     "rus": "разлить"
   },
   {
@@ -583,8 +583,8 @@ export const verbs = [
   },
   {
     "imperative": "spoil",
-    "simple": "spoilt (spoiled)",
-    "participle": "spoilt (spoiled)",
+    "simple": "spoilt",
+    "participle": "spoilt",
     "rus": "портить"
   },
   {
@@ -638,7 +638,7 @@ export const verbs = [
   {
     "imperative": "swell",
     "simple": "swelled",
-    "participle": "swollen (swelled)",
+    "participle": "swollen",
     "rus": "опухать"
   },
   {
@@ -699,7 +699,7 @@ export const verbs = [
     "imperative": "wear",
     "simple": "wore",
     "participle": "worn",
-    "rus": "носить (одежду)"
+    "rus": "носить"
   },
   {
     "imperative": "win",
