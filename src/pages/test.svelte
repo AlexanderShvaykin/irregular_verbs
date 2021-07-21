@@ -13,7 +13,9 @@
     }
 
     function saveAnswer(input, word, key) {
-      word.answers ||= {}
+      if (word.answers === undefined) {
+        word.answers = {}
+      }
       word.answers[key] = { input }
     }
 
