@@ -10,6 +10,13 @@
         elemets[i].classList.remove("is-invalid", "is-valid")
         elemets[i].value = ""
        }
+      let feedbackContainers = document.getElementsByClassName(`invalid-feedback`)
+      for (let i = 0; i < feedbackContainers.length; i++) {
+        feedbackContainers[i].innerHTML = ""
+      }
+      words.forEach(w => {
+        w.answers = {}
+      })
     }
 
     function saveAnswer(input, word, key) {
